@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "task2_cpp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-task2_cpp-Debug-7228652323258e683550.json",
+					"jsonFile" : "target-task2_cpp-Debug-c62c59886c6871eeaba8.json",
 					"name" : "task2_cpp",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/rando/CLionProjects/task2_cpp/cmake-build-debug",
-		"source" : "C:/Users/rando/CLionProjects/task2_cpp"
+		"build" : "D:/c++ projects/task2_cpp/cmake-build-debug",
+		"source" : "D:/c++ projects/task2_cpp"
 	},
 	"version" : 
 	{
