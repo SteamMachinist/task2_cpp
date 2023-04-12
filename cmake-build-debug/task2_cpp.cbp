@@ -82,37 +82,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/c++ projects/task2_cpp/Bus/Bus.cpp">
+		<Unit filename="D:/c++ projects/task2_cpp/Bus.cpp">
 			<Option target="task2_cpp"/>
 		</Unit>
-		<Unit filename="D:/c++ projects/task2_cpp/Bus/Bus.h">
+		<Unit filename="D:/c++ projects/task2_cpp/Bus.h">
 			<Option target="task2_cpp"/>
 		</Unit>
-		<Unit filename="D:/c++ projects/task2_cpp/Passenger/Passenger.cpp">
+		<Unit filename="D:/c++ projects/task2_cpp/CircularRoute.cpp">
 			<Option target="task2_cpp"/>
 		</Unit>
-		<Unit filename="D:/c++ projects/task2_cpp/Passenger/Passenger.h">
+		<Unit filename="D:/c++ projects/task2_cpp/CircularRoute.h">
 			<Option target="task2_cpp"/>
 		</Unit>
-		<Unit filename="D:/c++ projects/task2_cpp/Route/CircularRoute.cpp">
+		<Unit filename="D:/c++ projects/task2_cpp/LinearRoute.cpp">
 			<Option target="task2_cpp"/>
 		</Unit>
-		<Unit filename="D:/c++ projects/task2_cpp/Route/CircularRoute.h">
+		<Unit filename="D:/c++ projects/task2_cpp/LinearRoute.h">
 			<Option target="task2_cpp"/>
 		</Unit>
-		<Unit filename="D:/c++ projects/task2_cpp/Route/LinearRoute.cpp">
+		<Unit filename="D:/c++ projects/task2_cpp/Passenger.cpp">
 			<Option target="task2_cpp"/>
 		</Unit>
-		<Unit filename="D:/c++ projects/task2_cpp/Route/LinearRoute.h">
+		<Unit filename="D:/c++ projects/task2_cpp/Passenger.h">
 			<Option target="task2_cpp"/>
 		</Unit>
-		<Unit filename="D:/c++ projects/task2_cpp/Route/Route.h">
+		<Unit filename="D:/c++ projects/task2_cpp/Route.h">
 			<Option target="task2_cpp"/>
 		</Unit>
-		<Unit filename="D:/c++ projects/task2_cpp/Stop/Stop.cpp">
+		<Unit filename="D:/c++ projects/task2_cpp/Stop.cpp">
 			<Option target="task2_cpp"/>
 		</Unit>
-		<Unit filename="D:/c++ projects/task2_cpp/Stop/Stop.h">
+		<Unit filename="D:/c++ projects/task2_cpp/Stop.h">
 			<Option target="task2_cpp"/>
 		</Unit>
 		<Unit filename="D:/c++ projects/task2_cpp/main.cpp">

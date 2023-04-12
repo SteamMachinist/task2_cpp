@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/c++ projects/task2_cpp/Bus/Bus.cpp" "CMakeFiles/task2_cpp.dir/Bus/Bus.cpp.obj" "gcc" "CMakeFiles/task2_cpp.dir/Bus/Bus.cpp.obj.d"
-  "D:/c++ projects/task2_cpp/Passenger/Passenger.cpp" "CMakeFiles/task2_cpp.dir/Passenger/Passenger.cpp.obj" "gcc" "CMakeFiles/task2_cpp.dir/Passenger/Passenger.cpp.obj.d"
-  "D:/c++ projects/task2_cpp/Route/CircularRoute.cpp" "CMakeFiles/task2_cpp.dir/Route/CircularRoute.cpp.obj" "gcc" "CMakeFiles/task2_cpp.dir/Route/CircularRoute.cpp.obj.d"
-  "D:/c++ projects/task2_cpp/Route/LinearRoute.cpp" "CMakeFiles/task2_cpp.dir/Route/LinearRoute.cpp.obj" "gcc" "CMakeFiles/task2_cpp.dir/Route/LinearRoute.cpp.obj.d"
-  "D:/c++ projects/task2_cpp/Stop/Stop.cpp" "CMakeFiles/task2_cpp.dir/Stop/Stop.cpp.obj" "gcc" "CMakeFiles/task2_cpp.dir/Stop/Stop.cpp.obj.d"
+  "D:/c++ projects/task2_cpp/Bus.cpp" "CMakeFiles/task2_cpp.dir/Bus.cpp.obj" "gcc" "CMakeFiles/task2_cpp.dir/Bus.cpp.obj.d"
+  "D:/c++ projects/task2_cpp/CircularRoute.cpp" "CMakeFiles/task2_cpp.dir/CircularRoute.cpp.obj" "gcc" "CMakeFiles/task2_cpp.dir/CircularRoute.cpp.obj.d"
+  "D:/c++ projects/task2_cpp/LinearRoute.cpp" "CMakeFiles/task2_cpp.dir/LinearRoute.cpp.obj" "gcc" "CMakeFiles/task2_cpp.dir/LinearRoute.cpp.obj.d"
+  "D:/c++ projects/task2_cpp/Passenger.cpp" "CMakeFiles/task2_cpp.dir/Passenger.cpp.obj" "gcc" "CMakeFiles/task2_cpp.dir/Passenger.cpp.obj.d"
+  "D:/c++ projects/task2_cpp/Stop.cpp" "CMakeFiles/task2_cpp.dir/Stop.cpp.obj" "gcc" "CMakeFiles/task2_cpp.dir/Stop.cpp.obj.d"
   "D:/c++ projects/task2_cpp/main.cpp" "CMakeFiles/task2_cpp.dir/main.cpp.obj" "gcc" "CMakeFiles/task2_cpp.dir/main.cpp.obj.d"
   )
 
