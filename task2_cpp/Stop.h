@@ -2,27 +2,33 @@
 #define TASK2_CPP_STOP_H
 
 #include <string>
-#include <queue>
+#include <list>
 #include "Passenger.h"
+
+using namespace std;
 
 class Passenger;
 
 class Stop
 {
 private:
-    std::string name;
-    std::queue<Passenger*> waiting;
+    string name;
+    list<Passenger *> waiting;
+
+    friend ostream &operator<<(ostream &, const Stop &);
 
 public:
-    Stop(std::string name);
-    Stop(std::string name, std::queue<Passenger *>);
+    explicit Stop(string name);
+    Stop(string name, list<Passenger *>);
     ~Stop();
+
     void addToWaiting(Passenger *toAdd);
-    Passenger *getNext();
-    std::string getName();
-    void setName(std::string name);
-    std::queue<Passenger *> getWaiting();
-    void setWaiting(std::queue<Passenger *> waiting);
+    Passenger *getNextPassengerFor(list<Stop *> goingToList);
+
+    string getName();
+    void setName(string name);
+    list<Passenger *> getWaiting();
+    void setWaiting(list<Passenger *> waiting);
 };
 
 #endif //TASK2_CPP_STOP_H

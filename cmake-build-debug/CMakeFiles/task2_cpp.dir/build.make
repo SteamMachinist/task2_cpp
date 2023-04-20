@@ -68,108 +68,108 @@ include CMakeFiles/task2_cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/task2_cpp.dir/flags.make
 
-CMakeFiles/task2_cpp.dir/main.cpp.obj: CMakeFiles/task2_cpp.dir/flags.make
-CMakeFiles/task2_cpp.dir/main.cpp.obj: D:/c++\ projects/task2_cpp/main.cpp
-CMakeFiles/task2_cpp.dir/main.cpp.obj: CMakeFiles/task2_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\c++ projects\task2_cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task2_cpp.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task2_cpp.dir/main.cpp.obj -MF CMakeFiles\task2_cpp.dir\main.cpp.obj.d -o CMakeFiles\task2_cpp.dir\main.cpp.obj -c "D:\c++ projects\task2_cpp\main.cpp"
+CMakeFiles/task2_cpp.dir/task2_cpp/main.cpp.obj: CMakeFiles/task2_cpp.dir/flags.make
+CMakeFiles/task2_cpp.dir/task2_cpp/main.cpp.obj: D:/c++\ projects/task2_cpp/task2_cpp/main.cpp
+CMakeFiles/task2_cpp.dir/task2_cpp/main.cpp.obj: CMakeFiles/task2_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\c++ projects\task2_cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task2_cpp.dir/task2_cpp/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task2_cpp.dir/task2_cpp/main.cpp.obj -MF CMakeFiles\task2_cpp.dir\task2_cpp\main.cpp.obj.d -o CMakeFiles\task2_cpp.dir\task2_cpp\main.cpp.obj -c "D:\c++ projects\task2_cpp\task2_cpp\main.cpp"
 
-CMakeFiles/task2_cpp.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task2_cpp.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\c++ projects\task2_cpp\main.cpp" > CMakeFiles\task2_cpp.dir\main.cpp.i
+CMakeFiles/task2_cpp.dir/task2_cpp/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task2_cpp.dir/task2_cpp/main.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\c++ projects\task2_cpp\task2_cpp\main.cpp" > CMakeFiles\task2_cpp.dir\task2_cpp\main.cpp.i
 
-CMakeFiles/task2_cpp.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task2_cpp.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\c++ projects\task2_cpp\main.cpp" -o CMakeFiles\task2_cpp.dir\main.cpp.s
+CMakeFiles/task2_cpp.dir/task2_cpp/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task2_cpp.dir/task2_cpp/main.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\c++ projects\task2_cpp\task2_cpp\main.cpp" -o CMakeFiles\task2_cpp.dir\task2_cpp\main.cpp.s
 
-CMakeFiles/task2_cpp.dir/Bus.cpp.obj: CMakeFiles/task2_cpp.dir/flags.make
-CMakeFiles/task2_cpp.dir/Bus.cpp.obj: D:/c++\ projects/task2_cpp/Bus.cpp
-CMakeFiles/task2_cpp.dir/Bus.cpp.obj: CMakeFiles/task2_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\c++ projects\task2_cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task2_cpp.dir/Bus.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task2_cpp.dir/Bus.cpp.obj -MF CMakeFiles\task2_cpp.dir\Bus.cpp.obj.d -o CMakeFiles\task2_cpp.dir\Bus.cpp.obj -c "D:\c++ projects\task2_cpp\Bus.cpp"
+CMakeFiles/task2_cpp.dir/task2_cpp/Bus.cpp.obj: CMakeFiles/task2_cpp.dir/flags.make
+CMakeFiles/task2_cpp.dir/task2_cpp/Bus.cpp.obj: D:/c++\ projects/task2_cpp/task2_cpp/Bus.cpp
+CMakeFiles/task2_cpp.dir/task2_cpp/Bus.cpp.obj: CMakeFiles/task2_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\c++ projects\task2_cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task2_cpp.dir/task2_cpp/Bus.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task2_cpp.dir/task2_cpp/Bus.cpp.obj -MF CMakeFiles\task2_cpp.dir\task2_cpp\Bus.cpp.obj.d -o CMakeFiles\task2_cpp.dir\task2_cpp\Bus.cpp.obj -c "D:\c++ projects\task2_cpp\task2_cpp\Bus.cpp"
 
-CMakeFiles/task2_cpp.dir/Bus.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task2_cpp.dir/Bus.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\c++ projects\task2_cpp\Bus.cpp" > CMakeFiles\task2_cpp.dir\Bus.cpp.i
+CMakeFiles/task2_cpp.dir/task2_cpp/Bus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task2_cpp.dir/task2_cpp/Bus.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\c++ projects\task2_cpp\task2_cpp\Bus.cpp" > CMakeFiles\task2_cpp.dir\task2_cpp\Bus.cpp.i
 
-CMakeFiles/task2_cpp.dir/Bus.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task2_cpp.dir/Bus.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\c++ projects\task2_cpp\Bus.cpp" -o CMakeFiles\task2_cpp.dir\Bus.cpp.s
+CMakeFiles/task2_cpp.dir/task2_cpp/Bus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task2_cpp.dir/task2_cpp/Bus.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\c++ projects\task2_cpp\task2_cpp\Bus.cpp" -o CMakeFiles\task2_cpp.dir\task2_cpp\Bus.cpp.s
 
-CMakeFiles/task2_cpp.dir/Passenger.cpp.obj: CMakeFiles/task2_cpp.dir/flags.make
-CMakeFiles/task2_cpp.dir/Passenger.cpp.obj: D:/c++\ projects/task2_cpp/Passenger.cpp
-CMakeFiles/task2_cpp.dir/Passenger.cpp.obj: CMakeFiles/task2_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\c++ projects\task2_cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task2_cpp.dir/Passenger.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task2_cpp.dir/Passenger.cpp.obj -MF CMakeFiles\task2_cpp.dir\Passenger.cpp.obj.d -o CMakeFiles\task2_cpp.dir\Passenger.cpp.obj -c "D:\c++ projects\task2_cpp\Passenger.cpp"
+CMakeFiles/task2_cpp.dir/task2_cpp/Passenger.cpp.obj: CMakeFiles/task2_cpp.dir/flags.make
+CMakeFiles/task2_cpp.dir/task2_cpp/Passenger.cpp.obj: D:/c++\ projects/task2_cpp/task2_cpp/Passenger.cpp
+CMakeFiles/task2_cpp.dir/task2_cpp/Passenger.cpp.obj: CMakeFiles/task2_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\c++ projects\task2_cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task2_cpp.dir/task2_cpp/Passenger.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task2_cpp.dir/task2_cpp/Passenger.cpp.obj -MF CMakeFiles\task2_cpp.dir\task2_cpp\Passenger.cpp.obj.d -o CMakeFiles\task2_cpp.dir\task2_cpp\Passenger.cpp.obj -c "D:\c++ projects\task2_cpp\task2_cpp\Passenger.cpp"
 
-CMakeFiles/task2_cpp.dir/Passenger.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task2_cpp.dir/Passenger.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\c++ projects\task2_cpp\Passenger.cpp" > CMakeFiles\task2_cpp.dir\Passenger.cpp.i
+CMakeFiles/task2_cpp.dir/task2_cpp/Passenger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task2_cpp.dir/task2_cpp/Passenger.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\c++ projects\task2_cpp\task2_cpp\Passenger.cpp" > CMakeFiles\task2_cpp.dir\task2_cpp\Passenger.cpp.i
 
-CMakeFiles/task2_cpp.dir/Passenger.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task2_cpp.dir/Passenger.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\c++ projects\task2_cpp\Passenger.cpp" -o CMakeFiles\task2_cpp.dir\Passenger.cpp.s
+CMakeFiles/task2_cpp.dir/task2_cpp/Passenger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task2_cpp.dir/task2_cpp/Passenger.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\c++ projects\task2_cpp\task2_cpp\Passenger.cpp" -o CMakeFiles\task2_cpp.dir\task2_cpp\Passenger.cpp.s
 
-CMakeFiles/task2_cpp.dir/Stop.cpp.obj: CMakeFiles/task2_cpp.dir/flags.make
-CMakeFiles/task2_cpp.dir/Stop.cpp.obj: D:/c++\ projects/task2_cpp/Stop.cpp
-CMakeFiles/task2_cpp.dir/Stop.cpp.obj: CMakeFiles/task2_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\c++ projects\task2_cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task2_cpp.dir/Stop.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task2_cpp.dir/Stop.cpp.obj -MF CMakeFiles\task2_cpp.dir\Stop.cpp.obj.d -o CMakeFiles\task2_cpp.dir\Stop.cpp.obj -c "D:\c++ projects\task2_cpp\Stop.cpp"
+CMakeFiles/task2_cpp.dir/task2_cpp/Stop.cpp.obj: CMakeFiles/task2_cpp.dir/flags.make
+CMakeFiles/task2_cpp.dir/task2_cpp/Stop.cpp.obj: D:/c++\ projects/task2_cpp/task2_cpp/Stop.cpp
+CMakeFiles/task2_cpp.dir/task2_cpp/Stop.cpp.obj: CMakeFiles/task2_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\c++ projects\task2_cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task2_cpp.dir/task2_cpp/Stop.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task2_cpp.dir/task2_cpp/Stop.cpp.obj -MF CMakeFiles\task2_cpp.dir\task2_cpp\Stop.cpp.obj.d -o CMakeFiles\task2_cpp.dir\task2_cpp\Stop.cpp.obj -c "D:\c++ projects\task2_cpp\task2_cpp\Stop.cpp"
 
-CMakeFiles/task2_cpp.dir/Stop.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task2_cpp.dir/Stop.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\c++ projects\task2_cpp\Stop.cpp" > CMakeFiles\task2_cpp.dir\Stop.cpp.i
+CMakeFiles/task2_cpp.dir/task2_cpp/Stop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task2_cpp.dir/task2_cpp/Stop.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\c++ projects\task2_cpp\task2_cpp\Stop.cpp" > CMakeFiles\task2_cpp.dir\task2_cpp\Stop.cpp.i
 
-CMakeFiles/task2_cpp.dir/Stop.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task2_cpp.dir/Stop.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\c++ projects\task2_cpp\Stop.cpp" -o CMakeFiles\task2_cpp.dir\Stop.cpp.s
+CMakeFiles/task2_cpp.dir/task2_cpp/Stop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task2_cpp.dir/task2_cpp/Stop.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\c++ projects\task2_cpp\task2_cpp\Stop.cpp" -o CMakeFiles\task2_cpp.dir\task2_cpp\Stop.cpp.s
 
-CMakeFiles/task2_cpp.dir/CircularRoute.cpp.obj: CMakeFiles/task2_cpp.dir/flags.make
-CMakeFiles/task2_cpp.dir/CircularRoute.cpp.obj: D:/c++\ projects/task2_cpp/CircularRoute.cpp
-CMakeFiles/task2_cpp.dir/CircularRoute.cpp.obj: CMakeFiles/task2_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\c++ projects\task2_cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task2_cpp.dir/CircularRoute.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task2_cpp.dir/CircularRoute.cpp.obj -MF CMakeFiles\task2_cpp.dir\CircularRoute.cpp.obj.d -o CMakeFiles\task2_cpp.dir\CircularRoute.cpp.obj -c "D:\c++ projects\task2_cpp\CircularRoute.cpp"
+CMakeFiles/task2_cpp.dir/task2_cpp/CircularRoute.cpp.obj: CMakeFiles/task2_cpp.dir/flags.make
+CMakeFiles/task2_cpp.dir/task2_cpp/CircularRoute.cpp.obj: D:/c++\ projects/task2_cpp/task2_cpp/CircularRoute.cpp
+CMakeFiles/task2_cpp.dir/task2_cpp/CircularRoute.cpp.obj: CMakeFiles/task2_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\c++ projects\task2_cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task2_cpp.dir/task2_cpp/CircularRoute.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task2_cpp.dir/task2_cpp/CircularRoute.cpp.obj -MF CMakeFiles\task2_cpp.dir\task2_cpp\CircularRoute.cpp.obj.d -o CMakeFiles\task2_cpp.dir\task2_cpp\CircularRoute.cpp.obj -c "D:\c++ projects\task2_cpp\task2_cpp\CircularRoute.cpp"
 
-CMakeFiles/task2_cpp.dir/CircularRoute.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task2_cpp.dir/CircularRoute.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\c++ projects\task2_cpp\CircularRoute.cpp" > CMakeFiles\task2_cpp.dir\CircularRoute.cpp.i
+CMakeFiles/task2_cpp.dir/task2_cpp/CircularRoute.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task2_cpp.dir/task2_cpp/CircularRoute.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\c++ projects\task2_cpp\task2_cpp\CircularRoute.cpp" > CMakeFiles\task2_cpp.dir\task2_cpp\CircularRoute.cpp.i
 
-CMakeFiles/task2_cpp.dir/CircularRoute.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task2_cpp.dir/CircularRoute.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\c++ projects\task2_cpp\CircularRoute.cpp" -o CMakeFiles\task2_cpp.dir\CircularRoute.cpp.s
+CMakeFiles/task2_cpp.dir/task2_cpp/CircularRoute.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task2_cpp.dir/task2_cpp/CircularRoute.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\c++ projects\task2_cpp\task2_cpp\CircularRoute.cpp" -o CMakeFiles\task2_cpp.dir\task2_cpp\CircularRoute.cpp.s
 
-CMakeFiles/task2_cpp.dir/LinearRoute.cpp.obj: CMakeFiles/task2_cpp.dir/flags.make
-CMakeFiles/task2_cpp.dir/LinearRoute.cpp.obj: D:/c++\ projects/task2_cpp/LinearRoute.cpp
-CMakeFiles/task2_cpp.dir/LinearRoute.cpp.obj: CMakeFiles/task2_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\c++ projects\task2_cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task2_cpp.dir/LinearRoute.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task2_cpp.dir/LinearRoute.cpp.obj -MF CMakeFiles\task2_cpp.dir\LinearRoute.cpp.obj.d -o CMakeFiles\task2_cpp.dir\LinearRoute.cpp.obj -c "D:\c++ projects\task2_cpp\LinearRoute.cpp"
+CMakeFiles/task2_cpp.dir/task2_cpp/LinearRoute.cpp.obj: CMakeFiles/task2_cpp.dir/flags.make
+CMakeFiles/task2_cpp.dir/task2_cpp/LinearRoute.cpp.obj: D:/c++\ projects/task2_cpp/task2_cpp/LinearRoute.cpp
+CMakeFiles/task2_cpp.dir/task2_cpp/LinearRoute.cpp.obj: CMakeFiles/task2_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\c++ projects\task2_cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task2_cpp.dir/task2_cpp/LinearRoute.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task2_cpp.dir/task2_cpp/LinearRoute.cpp.obj -MF CMakeFiles\task2_cpp.dir\task2_cpp\LinearRoute.cpp.obj.d -o CMakeFiles\task2_cpp.dir\task2_cpp\LinearRoute.cpp.obj -c "D:\c++ projects\task2_cpp\task2_cpp\LinearRoute.cpp"
 
-CMakeFiles/task2_cpp.dir/LinearRoute.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task2_cpp.dir/LinearRoute.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\c++ projects\task2_cpp\LinearRoute.cpp" > CMakeFiles\task2_cpp.dir\LinearRoute.cpp.i
+CMakeFiles/task2_cpp.dir/task2_cpp/LinearRoute.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task2_cpp.dir/task2_cpp/LinearRoute.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\c++ projects\task2_cpp\task2_cpp\LinearRoute.cpp" > CMakeFiles\task2_cpp.dir\task2_cpp\LinearRoute.cpp.i
 
-CMakeFiles/task2_cpp.dir/LinearRoute.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task2_cpp.dir/LinearRoute.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\c++ projects\task2_cpp\LinearRoute.cpp" -o CMakeFiles\task2_cpp.dir\LinearRoute.cpp.s
+CMakeFiles/task2_cpp.dir/task2_cpp/LinearRoute.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task2_cpp.dir/task2_cpp/LinearRoute.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\c++ projects\task2_cpp\task2_cpp\LinearRoute.cpp" -o CMakeFiles\task2_cpp.dir\task2_cpp\LinearRoute.cpp.s
 
 # Object files for target task2_cpp
 task2_cpp_OBJECTS = \
-"CMakeFiles/task2_cpp.dir/main.cpp.obj" \
-"CMakeFiles/task2_cpp.dir/Bus.cpp.obj" \
-"CMakeFiles/task2_cpp.dir/Passenger.cpp.obj" \
-"CMakeFiles/task2_cpp.dir/Stop.cpp.obj" \
-"CMakeFiles/task2_cpp.dir/CircularRoute.cpp.obj" \
-"CMakeFiles/task2_cpp.dir/LinearRoute.cpp.obj"
+"CMakeFiles/task2_cpp.dir/task2_cpp/main.cpp.obj" \
+"CMakeFiles/task2_cpp.dir/task2_cpp/Bus.cpp.obj" \
+"CMakeFiles/task2_cpp.dir/task2_cpp/Passenger.cpp.obj" \
+"CMakeFiles/task2_cpp.dir/task2_cpp/Stop.cpp.obj" \
+"CMakeFiles/task2_cpp.dir/task2_cpp/CircularRoute.cpp.obj" \
+"CMakeFiles/task2_cpp.dir/task2_cpp/LinearRoute.cpp.obj"
 
 # External object files for target task2_cpp
 task2_cpp_EXTERNAL_OBJECTS =
 
-task2_cpp.exe: CMakeFiles/task2_cpp.dir/main.cpp.obj
-task2_cpp.exe: CMakeFiles/task2_cpp.dir/Bus.cpp.obj
-task2_cpp.exe: CMakeFiles/task2_cpp.dir/Passenger.cpp.obj
-task2_cpp.exe: CMakeFiles/task2_cpp.dir/Stop.cpp.obj
-task2_cpp.exe: CMakeFiles/task2_cpp.dir/CircularRoute.cpp.obj
-task2_cpp.exe: CMakeFiles/task2_cpp.dir/LinearRoute.cpp.obj
+task2_cpp.exe: CMakeFiles/task2_cpp.dir/task2_cpp/main.cpp.obj
+task2_cpp.exe: CMakeFiles/task2_cpp.dir/task2_cpp/Bus.cpp.obj
+task2_cpp.exe: CMakeFiles/task2_cpp.dir/task2_cpp/Passenger.cpp.obj
+task2_cpp.exe: CMakeFiles/task2_cpp.dir/task2_cpp/Stop.cpp.obj
+task2_cpp.exe: CMakeFiles/task2_cpp.dir/task2_cpp/CircularRoute.cpp.obj
+task2_cpp.exe: CMakeFiles/task2_cpp.dir/task2_cpp/LinearRoute.cpp.obj
 task2_cpp.exe: CMakeFiles/task2_cpp.dir/build.make
 task2_cpp.exe: CMakeFiles/task2_cpp.dir/linkLibs.rsp
 task2_cpp.exe: CMakeFiles/task2_cpp.dir/objects1

@@ -1,0 +1,73 @@
+The system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31942 для x86
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.34.31942.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "D:/c++ projects/task2_cpp/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31942 для x86
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.34.31942.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "D:/c++ projects/task2_cpp/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/c++ projects/task2_cpp/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-0raoxo
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_e52fd\fast && 	"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_e52fd.dir\build.make /nologo -L                  CMakeFiles\cmTC_e52fd.dir\build
+Building C object CMakeFiles/cmTC_e52fd.dir/CMakeCCompilerABI.c.obj
+	"C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\x64\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_e52fd.dir\CMakeCCompilerABI.c.obj.d --working-dir="D:\c++ projects\task2_cpp\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-0raoxo" --filter-prefix="╧Ёшьхўрэшх: тъы■ўхэшх Їрщыр:  " -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx86\x86\cl.exe @C:\Users\Yaroslav\AppData\Local\Temp\nm485E.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_e52fd.exe
+	"C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\x64\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e52fd.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x86\mt.exe --manifests -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e52fd.dir\objects1 @C:\Users\Yaroslav\AppData\Local\Temp\nm48AD.tmp
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/c++ projects/task2_cpp/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-af3s48
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_24fd2\fast && 	"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_24fd2.dir\build.make /nologo -L                  CMakeFiles\cmTC_24fd2.dir\build
+Building CXX object CMakeFiles/cmTC_24fd2.dir/CMakeCXXCompilerABI.cpp.obj
+	"C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\x64\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_24fd2.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir="D:\c++ projects\task2_cpp\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-af3s48" --filter-prefix="╧Ёшьхўрэшх: тъы■ўхэшх Їрщыр:  " -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx86\x86\cl.exe @C:\Users\Yaroslav\AppData\Local\Temp\nm4B4C.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_24fd2.exe
+	"C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\x64\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_24fd2.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x86\mt.exe --manifests -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_24fd2.dir\objects1 @C:\Users\Yaroslav\AppData\Local\Temp\nm4BBB.tmp
+
+
+

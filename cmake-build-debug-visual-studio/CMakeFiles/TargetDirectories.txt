@@ -1,0 +1,3 @@
+D:/c++ projects/task2_cpp/cmake-build-debug-visual-studio/CMakeFiles/task2_cpp.dir
+D:/c++ projects/task2_cpp/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
+D:/c++ projects/task2_cpp/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir

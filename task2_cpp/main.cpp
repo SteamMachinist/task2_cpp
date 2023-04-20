@@ -13,15 +13,28 @@
 #include <iostream>
 #include "Stop.h"
 
+using namespace std;
+
 int main()
 {
-    Stop* stop = new Stop("1");
-    stop->addToWaiting(new Passenger());
-    Passenger * next = stop->getNext();
-    std::cout << next << std::endl;
-    std::cout << "allright" << std::endl;
-    delete stop;
-    std::cout << "allright" << std::endl;
-    delete next;
+    Stop *stop1 = new Stop("1");
+    Stop *stop2 = new Stop("2");
+    Stop *stop3 = new Stop("3");
+    Stop *stop4 = new Stop("4");
+    stop1->addToWaiting(new Passenger("name1", stop2));
+    stop1->addToWaiting(new Passenger("name2", stop3));
+    stop1->addToWaiting(new Passenger("name3", stop4));
+
+    cout << *stop1;
+    list<Stop *> stops = *new list<Stop *>({stop2, stop3});
+    Passenger *next = stop1->getNextPassengerFor(stops);
+    cout << "\n" << *next << endl;
+
+//    delete next;
+//    delete &stops;
+//    delete stop1;
+//    delete stop2;
+//    delete stop3;
+//    delete stop4;
     return 0;
 }

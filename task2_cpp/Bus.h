@@ -1,21 +1,35 @@
-//
-// Created by rando on 09.03.2023.
-//
-
 #ifndef TASK2_CPP_BUS_H
 #define TASK2_CPP_BUS_H
 
 #include <string>
 #include <list>
-#include "Route.h"
+
 #include "Passenger.h"
+#include "Route.h"
+
+using namespace std;
+
+class Route;
+class Passenger;
+class Stop;
 
 class Bus
 {
 private:
-    std::string id;
-    //Route route;
-    std::list<Passenger> passengers;
+    string id;
+    Route *route;
+    int totalSeats;
+    list<Passenger *> passengers;
+    Stop *location;
+
+    friend ostream &operator<<(ostream &, const Bus &);
+
+public:
+    Bus(string id, Route *route, int seats);
+    Bus(string id, Route *route, int seats, list<Passenger *> passengers);
+    ~Bus();
+
+    void driveToNextStop();
 };
 
 

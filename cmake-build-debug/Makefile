@@ -128,149 +128,149 @@ task2_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/build
 .PHONY : task2_cpp/fast
 
-Bus.obj: Bus.cpp.obj
-.PHONY : Bus.obj
+task2_cpp/Bus.obj: task2_cpp/Bus.cpp.obj
+.PHONY : task2_cpp/Bus.obj
 
 # target to build an object file
-Bus.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/Bus.cpp.obj
-.PHONY : Bus.cpp.obj
+task2_cpp/Bus.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/Bus.cpp.obj
+.PHONY : task2_cpp/Bus.cpp.obj
 
-Bus.i: Bus.cpp.i
-.PHONY : Bus.i
+task2_cpp/Bus.i: task2_cpp/Bus.cpp.i
+.PHONY : task2_cpp/Bus.i
 
 # target to preprocess a source file
-Bus.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/Bus.cpp.i
-.PHONY : Bus.cpp.i
+task2_cpp/Bus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/Bus.cpp.i
+.PHONY : task2_cpp/Bus.cpp.i
 
-Bus.s: Bus.cpp.s
-.PHONY : Bus.s
+task2_cpp/Bus.s: task2_cpp/Bus.cpp.s
+.PHONY : task2_cpp/Bus.s
 
 # target to generate assembly for a file
-Bus.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/Bus.cpp.s
-.PHONY : Bus.cpp.s
+task2_cpp/Bus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/Bus.cpp.s
+.PHONY : task2_cpp/Bus.cpp.s
 
-CircularRoute.obj: CircularRoute.cpp.obj
-.PHONY : CircularRoute.obj
+task2_cpp/CircularRoute.obj: task2_cpp/CircularRoute.cpp.obj
+.PHONY : task2_cpp/CircularRoute.obj
 
 # target to build an object file
-CircularRoute.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/CircularRoute.cpp.obj
-.PHONY : CircularRoute.cpp.obj
+task2_cpp/CircularRoute.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/CircularRoute.cpp.obj
+.PHONY : task2_cpp/CircularRoute.cpp.obj
 
-CircularRoute.i: CircularRoute.cpp.i
-.PHONY : CircularRoute.i
+task2_cpp/CircularRoute.i: task2_cpp/CircularRoute.cpp.i
+.PHONY : task2_cpp/CircularRoute.i
 
 # target to preprocess a source file
-CircularRoute.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/CircularRoute.cpp.i
-.PHONY : CircularRoute.cpp.i
+task2_cpp/CircularRoute.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/CircularRoute.cpp.i
+.PHONY : task2_cpp/CircularRoute.cpp.i
 
-CircularRoute.s: CircularRoute.cpp.s
-.PHONY : CircularRoute.s
+task2_cpp/CircularRoute.s: task2_cpp/CircularRoute.cpp.s
+.PHONY : task2_cpp/CircularRoute.s
 
 # target to generate assembly for a file
-CircularRoute.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/CircularRoute.cpp.s
-.PHONY : CircularRoute.cpp.s
+task2_cpp/CircularRoute.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/CircularRoute.cpp.s
+.PHONY : task2_cpp/CircularRoute.cpp.s
 
-LinearRoute.obj: LinearRoute.cpp.obj
-.PHONY : LinearRoute.obj
+task2_cpp/LinearRoute.obj: task2_cpp/LinearRoute.cpp.obj
+.PHONY : task2_cpp/LinearRoute.obj
 
 # target to build an object file
-LinearRoute.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/LinearRoute.cpp.obj
-.PHONY : LinearRoute.cpp.obj
+task2_cpp/LinearRoute.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/LinearRoute.cpp.obj
+.PHONY : task2_cpp/LinearRoute.cpp.obj
 
-LinearRoute.i: LinearRoute.cpp.i
-.PHONY : LinearRoute.i
+task2_cpp/LinearRoute.i: task2_cpp/LinearRoute.cpp.i
+.PHONY : task2_cpp/LinearRoute.i
 
 # target to preprocess a source file
-LinearRoute.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/LinearRoute.cpp.i
-.PHONY : LinearRoute.cpp.i
+task2_cpp/LinearRoute.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/LinearRoute.cpp.i
+.PHONY : task2_cpp/LinearRoute.cpp.i
 
-LinearRoute.s: LinearRoute.cpp.s
-.PHONY : LinearRoute.s
+task2_cpp/LinearRoute.s: task2_cpp/LinearRoute.cpp.s
+.PHONY : task2_cpp/LinearRoute.s
 
 # target to generate assembly for a file
-LinearRoute.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/LinearRoute.cpp.s
-.PHONY : LinearRoute.cpp.s
+task2_cpp/LinearRoute.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/LinearRoute.cpp.s
+.PHONY : task2_cpp/LinearRoute.cpp.s
 
-Passenger.obj: Passenger.cpp.obj
-.PHONY : Passenger.obj
+task2_cpp/Passenger.obj: task2_cpp/Passenger.cpp.obj
+.PHONY : task2_cpp/Passenger.obj
 
 # target to build an object file
-Passenger.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/Passenger.cpp.obj
-.PHONY : Passenger.cpp.obj
+task2_cpp/Passenger.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/Passenger.cpp.obj
+.PHONY : task2_cpp/Passenger.cpp.obj
 
-Passenger.i: Passenger.cpp.i
-.PHONY : Passenger.i
+task2_cpp/Passenger.i: task2_cpp/Passenger.cpp.i
+.PHONY : task2_cpp/Passenger.i
 
 # target to preprocess a source file
-Passenger.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/Passenger.cpp.i
-.PHONY : Passenger.cpp.i
+task2_cpp/Passenger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/Passenger.cpp.i
+.PHONY : task2_cpp/Passenger.cpp.i
 
-Passenger.s: Passenger.cpp.s
-.PHONY : Passenger.s
+task2_cpp/Passenger.s: task2_cpp/Passenger.cpp.s
+.PHONY : task2_cpp/Passenger.s
 
 # target to generate assembly for a file
-Passenger.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/Passenger.cpp.s
-.PHONY : Passenger.cpp.s
+task2_cpp/Passenger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/Passenger.cpp.s
+.PHONY : task2_cpp/Passenger.cpp.s
 
-Stop.obj: Stop.cpp.obj
-.PHONY : Stop.obj
+task2_cpp/Stop.obj: task2_cpp/Stop.cpp.obj
+.PHONY : task2_cpp/Stop.obj
 
 # target to build an object file
-Stop.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/Stop.cpp.obj
-.PHONY : Stop.cpp.obj
+task2_cpp/Stop.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/Stop.cpp.obj
+.PHONY : task2_cpp/Stop.cpp.obj
 
-Stop.i: Stop.cpp.i
-.PHONY : Stop.i
+task2_cpp/Stop.i: task2_cpp/Stop.cpp.i
+.PHONY : task2_cpp/Stop.i
 
 # target to preprocess a source file
-Stop.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/Stop.cpp.i
-.PHONY : Stop.cpp.i
+task2_cpp/Stop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/Stop.cpp.i
+.PHONY : task2_cpp/Stop.cpp.i
 
-Stop.s: Stop.cpp.s
-.PHONY : Stop.s
+task2_cpp/Stop.s: task2_cpp/Stop.cpp.s
+.PHONY : task2_cpp/Stop.s
 
 # target to generate assembly for a file
-Stop.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/Stop.cpp.s
-.PHONY : Stop.cpp.s
+task2_cpp/Stop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/Stop.cpp.s
+.PHONY : task2_cpp/Stop.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+task2_cpp/main.obj: task2_cpp/main.cpp.obj
+.PHONY : task2_cpp/main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+task2_cpp/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/main.cpp.obj
+.PHONY : task2_cpp/main.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+task2_cpp/main.i: task2_cpp/main.cpp.i
+.PHONY : task2_cpp/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/main.cpp.i
-.PHONY : main.cpp.i
+task2_cpp/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/main.cpp.i
+.PHONY : task2_cpp/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+task2_cpp/main.s: task2_cpp/main.cpp.s
+.PHONY : task2_cpp/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/main.cpp.s
-.PHONY : main.cpp.s
+task2_cpp/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2_cpp.dir\build.make CMakeFiles/task2_cpp.dir/task2_cpp/main.cpp.s
+.PHONY : task2_cpp/main.cpp.s
 
 # Help Target
 help:
@@ -281,24 +281,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... task2_cpp
-	@echo ... Bus.obj
-	@echo ... Bus.i
-	@echo ... Bus.s
-	@echo ... CircularRoute.obj
-	@echo ... CircularRoute.i
-	@echo ... CircularRoute.s
-	@echo ... LinearRoute.obj
-	@echo ... LinearRoute.i
-	@echo ... LinearRoute.s
-	@echo ... Passenger.obj
-	@echo ... Passenger.i
-	@echo ... Passenger.s
-	@echo ... Stop.obj
-	@echo ... Stop.i
-	@echo ... Stop.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... task2_cpp/Bus.obj
+	@echo ... task2_cpp/Bus.i
+	@echo ... task2_cpp/Bus.s
+	@echo ... task2_cpp/CircularRoute.obj
+	@echo ... task2_cpp/CircularRoute.i
+	@echo ... task2_cpp/CircularRoute.s
+	@echo ... task2_cpp/LinearRoute.obj
+	@echo ... task2_cpp/LinearRoute.i
+	@echo ... task2_cpp/LinearRoute.s
+	@echo ... task2_cpp/Passenger.obj
+	@echo ... task2_cpp/Passenger.i
+	@echo ... task2_cpp/Passenger.s
+	@echo ... task2_cpp/Stop.obj
+	@echo ... task2_cpp/Stop.i
+	@echo ... task2_cpp/Stop.s
+	@echo ... task2_cpp/main.obj
+	@echo ... task2_cpp/main.i
+	@echo ... task2_cpp/main.s
 .PHONY : help
 
 

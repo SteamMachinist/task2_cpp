@@ -3,10 +3,14 @@
 
 #include "Stop.h"
 
+using namespace std;
+
 class Route
 {
 public:
-    virtual Stop next() = 0;
+    virtual ~Route() = 0;
+    virtual list<Stop *> stopsList() = 0;
+    virtual Stop *next() = 0;
 };
 
 
