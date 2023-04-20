@@ -8,10 +8,9 @@ using namespace std;
 class CircularRoute : public Route
 {
 private:
-
+    list<Stop *> stops;
 public:
-    CircularRoute();
-    CircularRoute(list<Stop *>);
+    CircularRoute(list<Stop *> stops);
 
     list<Stop *> stopsList() override;
     Stop *next() override;

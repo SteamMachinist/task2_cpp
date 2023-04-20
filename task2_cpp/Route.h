@@ -5,6 +5,8 @@
 
 using namespace std;
 
+class Stop;
+
 class Route
 {
 public:

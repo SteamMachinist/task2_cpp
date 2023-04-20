@@ -8,7 +8,7 @@ using namespace std;
 class LinearRoute : public Route
 {
 private:
-
+    list<Stop *> stops;
 public:
     LinearRoute();
     LinearRoute(list<Stop *> stops);
