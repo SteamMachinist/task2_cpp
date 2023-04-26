@@ -15,7 +15,7 @@ private:
     string name;
     list<Passenger *> waiting;
 
-    friend ostream &operator<<(ostream &, const Stop &);
+    friend ostream &operator<<(ostream &ostream, const Stop &stop);
 
 public:
     explicit Stop(string name);

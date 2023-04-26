@@ -22,6 +22,9 @@ private:
     list<Passenger *> passengers;
     Stop *location;
 
+    void getOn();
+    void getOff();
+
     friend ostream &operator<<(ostream &, const Bus &);
 
 public:

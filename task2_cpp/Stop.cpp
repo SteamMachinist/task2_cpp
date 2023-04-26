@@ -73,12 +73,12 @@ void Stop::setWaiting(list<Passenger *> waiting)
 ostream &operator<<(ostream &ostream, const Stop &stop)
 {
     ostream << "Stop\n(";
-    ostream << "\n" << std::string(4, ' ') << "name: " << stop.name;
-    ostream << "\n" << std::string(4, ' ') << "waiting passengers:\n";
+    ostream << "\n" << std::string(4, ' ') << "name: " << stop.name << ",";
+    ostream << "\n" << std::string(4, ' ') << "waiting passengers:";
     for (Passenger *passenger: stop.waiting)
     {
-        ostream << std::string(8, ' ') << *passenger << "\n";
+        ostream << "\n" << std::string(4, ' ') << *passenger;
     }
-    ostream << ")";
+    ostream << ",\n)";
     return ostream;
 }

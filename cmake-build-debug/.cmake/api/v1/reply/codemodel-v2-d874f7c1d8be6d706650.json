@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/c++ projects/task2_cpp/cmake-build-debug",
-		"source" : "D:/c++ projects/task2_cpp"
+		"build" : "C:/Users/rando/CLionProjects/task2_cpp/cmake-build-debug",
+		"source" : "C:/Users/rando/CLionProjects/task2_cpp"
 	},
 	"version" : 
 	{

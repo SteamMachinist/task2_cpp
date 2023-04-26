@@ -9,8 +9,15 @@ class Stop;
 
 class Route
 {
+private:
+    friend ostream &operator<<(ostream &ostream, const Route &route){ return route.toString(ostream); };
+
+protected:
+    virtual ostream &toString(ostream &ostream) const = 0;
+
 public:
-    virtual ~Route() = 0;
+    virtual ~Route()
+    {};
     virtual list<Stop *> stopsList() = 0;
     virtual Stop *next() = 0;
 };

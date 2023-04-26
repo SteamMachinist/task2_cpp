@@ -9,14 +9,17 @@ class LinearRoute : public Route
 {
 private:
     list<Stop *> stops;
+    list<Stop *>::iterator iterator;
+    int increment;
+
+    virtual ostream &toString(ostream &ostream) const override;
+
 public:
-    LinearRoute();
     LinearRoute(list<Stop *> stops);
+    ~LinearRoute() override;
 
     list<Stop *> stopsList() override;
     Stop *next() override;
-
-
 };
 
 

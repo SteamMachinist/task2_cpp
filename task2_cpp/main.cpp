@@ -12,6 +12,10 @@
 
 #include <iostream>
 #include "Stop.h"
+#include "Route.h"
+#include "CircularRoute.h"
+#include "LinearRoute.h"
+#include "Bus.h"
 
 using namespace std;
 
@@ -24,17 +28,25 @@ int main()
     stop1->addToWaiting(new Passenger("name1", stop2));
     stop1->addToWaiting(new Passenger("name2", stop3));
     stop1->addToWaiting(new Passenger("name3", stop4));
+    stop3->addToWaiting(new Passenger("name4", stop4));
+    stop3->addToWaiting(new Passenger("name5", stop4));
 
-    cout << *stop1;
-    list<Stop *> stops = *new list<Stop *>({stop2, stop3});
-    Passenger *next = stop1->getNextPassengerFor(stops);
-    cout << "\n" << *next << endl;
+    Route *route = new LinearRoute(*new list<Stop *> ({stop1, stop2, stop3, stop4}));
 
-//    delete next;
-//    delete &stops;
-//    delete stop1;
-//    delete stop2;
-//    delete stop3;
-//    delete stop4;
+    Bus *bus = new Bus("bus1", route, 2);
+    while(true)
+    {
+        cout << endl << endl << *bus << endl << endl;
+        bus->driveToNextStop();
+        if (std::cin.get() == '\n') {}
+    }
+
+//    cout << endl << endl << *bus << endl << endl;
+//    bus->driveToNextStop();
+//    cout << endl << endl << *bus << endl << endl;
+//    bus->driveToNextStop();
+//    cout << endl << endl << *bus << endl << endl;
+//    bus->driveToNextStop();
+//    cout << endl << endl << *bus << endl << endl;
     return 0;
 }

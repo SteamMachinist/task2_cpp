@@ -9,13 +9,16 @@ class CircularRoute : public Route
 {
 private:
     list<Stop *> stops;
+    list<Stop *>::iterator iterator;
+
+    ostream & toString(ostream &ostream) const override;
+
 public:
     CircularRoute(list<Stop *> stops);
+    ~CircularRoute() override;
 
     list<Stop *> stopsList() override;
     Stop *next() override;
-
-
 };
 
 
