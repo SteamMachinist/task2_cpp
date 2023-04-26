@@ -20,7 +20,7 @@ Stop::~Stop()
     {
         delete passenger;
     }
-    cout << "deleted stop" << endl;
+    cout << "deleted " << *this << endl;
 }
 
 void Stop::addToWaiting(Passenger *toAdd)

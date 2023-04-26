@@ -10,8 +10,7 @@ Passenger::Passenger(string name, Stop *destination)
 
 Passenger::~Passenger()
 {
-    //delete destination;
-    cout << "deleted passenger" << endl;
+    cout << "Deleted " << *this << endl;
 }
 
 bool Passenger::isAtDestination(Stop *destination)
@@ -41,6 +40,5 @@ void Passenger::setDestination(Stop *destination)
 
 ostream &operator<<(ostream &ostream, const Passenger &passenger)
 {
-    return ostream << "Passenger (name: " << passenger.name << ", destination: " << passenger.destination->getName()
-                   << ")";
+    return ostream << "Passenger (name: " << passenger.name << ", destination: " << passenger.destination->getName() << ")";
 }

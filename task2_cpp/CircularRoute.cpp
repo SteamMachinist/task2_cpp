@@ -25,12 +25,20 @@ Stop *CircularRoute::next()
 
 ostream &CircularRoute::toString(ostream &ostream) const
 {
-    ostream << "CircularRoute\n(";
-    ostream << "\n" << std::string(4, ' ') << "stops:";
-    for (Stop *stop : this->stops)
+    ostream << "CircularRoute(stops: ";
+    for (auto it = this->stops.begin(); it != this->stops.end();)
     {
-        ostream << "\n" << std::string(4, ' ') << stop->getName();
+        ostream << (*it)->getName();
+        it++;
+        if (it != this->stops.end())
+        {
+            ostream << " -> ";
+        }
+        else
+        {
+            break;
+        }
     }
-    ostream << "\n)";
+    ostream << ")";
     return ostream;
 }

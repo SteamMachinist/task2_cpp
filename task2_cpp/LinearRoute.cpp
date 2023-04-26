@@ -13,7 +13,31 @@ LinearRoute::~LinearRoute()
 
 list<Stop *> LinearRoute::stopsList()
 {
-    return this->stops;
+    //simple
+    //return this->stops;
+
+    //direction-on-route-wise
+    auto currentIterator = this->iterator;
+    list<Stop *> goingToList = *new list<Stop *>;
+
+    if(this->increment == 1)
+    {
+        while(currentIterator != this->stops.end())
+        {
+            goingToList.push_back(*currentIterator);
+            advance(currentIterator, this->increment);
+        }
+    }
+    else
+    {
+        while(currentIterator != this->stops.begin())
+        {
+            goingToList.push_back(*currentIterator);
+            advance(currentIterator, this->increment);
+        }
+        goingToList.push_back(*currentIterator);
+    }
+    return goingToList;
 }
 
 Stop *LinearRoute::next()
@@ -34,12 +58,20 @@ Stop *LinearRoute::next()
 
 ostream &LinearRoute::toString(ostream &ostream) const
 {
-    ostream << "LinearRoute\n(";
-    ostream << "\n" << std::string(4, ' ') << "stops:";
-    for (Stop *stop : this->stops)
+    ostream << "LinearRoute(stops: ";
+    for (auto it = this->stops.begin(); it != this->stops.end();)
     {
-        ostream << "\n" << std::string(4, ' ') << stop->getName();
+        ostream << (*it)->getName();
+        it++;
+        if (it != this->stops.end())
+        {
+            ostream << " -> ";
+        }
+        else
+        {
+            break;
+        }
     }
-    ostream << "\n)";
+    ostream << ")";
     return ostream;
 }

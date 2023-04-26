@@ -11,6 +11,11 @@
  */
 
 #include <iostream>
+#include <map>
+#include <chrono>
+#include <random>
+#include <cmath>
+
 #include "Stop.h"
 #include "Route.h"
 #include "CircularRoute.h"
@@ -19,34 +24,99 @@
 
 using namespace std;
 
+
+int generateRandomPassengers(int ordinal, double chance, vector<Stop *> stops, map<Stop*, vector<Stop *>> possibleDestinations)
+{
+    std::random_device rd;
+    std::mt19937::result_type seed = rd() ^ (
+            (std::mt19937::result_type)
+            std::chrono::duration_cast<std::chrono::seconds>(
+                std::chrono::system_clock::now().time_since_epoch()
+                ).count() +
+            (std::mt19937::result_type)
+            std::chrono::duration_cast<std::chrono::microseconds>(
+                std::chrono::high_resolution_clock::now().time_since_epoch()
+                ).count() );
+
+    std::mt19937 gen(seed);
+    std::uniform_int_distribution<unsigned> distrib1(1, round(1 / chance));
+
+
+    for(Stop *stop : stops)
+    {
+        unsigned int rnd = distrib1(gen);
+        if (rnd == 1)
+        {
+            vector<Stop *> allowed = possibleDestinations[stop];
+            std::uniform_int_distribution<unsigned> distrib2(0, allowed.size() - 1);
+            Passenger *passenger = new Passenger("name" + to_string(ordinal), allowed[distrib2(gen)]);
+            cout << "Generated new " << *passenger << " at stop " << stop->getName() << endl;
+            stop->addToWaiting(passenger);
+            ordinal++;
+        }
+    }
+    return ordinal;
+}
+
+
 int main()
 {
-    Stop *stop1 = new Stop("1");
-    Stop *stop2 = new Stop("2");
-    Stop *stop3 = new Stop("3");
-    Stop *stop4 = new Stop("4");
-    stop1->addToWaiting(new Passenger("name1", stop2));
-    stop1->addToWaiting(new Passenger("name2", stop3));
-    stop1->addToWaiting(new Passenger("name3", stop4));
-    stop3->addToWaiting(new Passenger("name4", stop4));
-    stop3->addToWaiting(new Passenger("name5", stop4));
+    /*        (bus0)
+     *          0
+     *          |      (bus2)
+     *          1        8--
+     *          |        | |
+     *(bus1) 4--2--5--6--7 |
+     *          |        | |
+     *          3        9--
+     */
 
-    Route *route = new LinearRoute(*new list<Stop *> ({stop1, stop2, stop3, stop4}));
-
-    Bus *bus = new Bus("bus1", route, 2);
-    while(true)
+    vector<Stop *> stops = *new vector<Stop *>(10);
+    for (int i = 0; i < 10; i++)
     {
-        cout << endl << endl << *bus << endl << endl;
-        bus->driveToNextStop();
-        if (std::cin.get() == '\n') {}
+        stops[i] = new Stop(to_string(i));
     }
 
-//    cout << endl << endl << *bus << endl << endl;
-//    bus->driveToNextStop();
-//    cout << endl << endl << *bus << endl << endl;
-//    bus->driveToNextStop();
-//    cout << endl << endl << *bus << endl << endl;
-//    bus->driveToNextStop();
-//    cout << endl << endl << *bus << endl << endl;
+    Route *route0 = new LinearRoute(*new list<Stop *> ({stops[0], stops[1], stops[2], stops[3]}));
+    Route *route1 = new LinearRoute(*new list<Stop *> ({stops[4], stops[2], stops[5], stops[6], stops[7]}));
+    Route *route2 = new CircularRoute(*new list<Stop *> ({stops[7], stops[8], stops[9]}));
+
+    map<Stop *, vector<Stop *>> destinations = *new map<Stop *, vector<Stop *>>();
+    destinations[stops[0]] = *new vector<Stop *>({stops[1], stops[2], stops[3]});
+    destinations[stops[1]] = *new vector<Stop *>({stops[0], stops[2], stops[3]});
+    destinations[stops[2]] = *new vector<Stop *>({stops[0], stops[1], stops[3], stops[4], stops[5], stops[6], stops[7]});
+    destinations[stops[3]] = *new vector<Stop *>({stops[0], stops[1], stops[2]});
+    destinations[stops[4]] = *new vector<Stop *>({stops[2], stops[5], stops[6], stops[7]});
+    destinations[stops[5]] = *new vector<Stop *>({stops[4], stops[2], stops[6], stops[7]});
+    destinations[stops[6]] = *new vector<Stop *>({stops[4], stops[2], stops[5], stops[7]});
+    destinations[stops[7]] = *new vector<Stop *>({stops[4], stops[2], stops[5], stops[6], stops[8], stops[9]});
+    destinations[stops[8]] = *new vector<Stop *>({stops[7], stops[9]});
+    destinations[stops[9]] = *new vector<Stop *>({stops[7], stops[8]});
+
+    list<Bus *> busses = *new list<Bus *>({
+        new Bus("bus0", route0, 3),
+        new Bus("bus1", route1, 3),
+        new Bus("bus2", route2, 3)});
+
+    for (Bus *bus : busses)
+    {
+        cout << endl << *bus << endl;
+    }
+    int ordinal = 0;
+    while(true)
+    {
+        cin.ignore();
+        cout << endl << "Tick" << endl;
+
+        for (Bus *bus : busses)
+        {
+            cout << endl << *bus << endl;
+        }
+        for (Bus *bus : busses)
+        {
+            bus->driveToNextStop();
+        }
+        ordinal = generateRandomPassengers(ordinal, 0.1, stops, destinations);
+    }
     return 0;
 }

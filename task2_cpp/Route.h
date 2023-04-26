@@ -16,8 +16,7 @@ protected:
     virtual ostream &toString(ostream &ostream) const = 0;
 
 public:
-    virtual ~Route()
-    {};
+    virtual ~Route() = default;
     virtual list<Stop *> stopsList() = 0;
     virtual Stop *next() = 0;
 };
